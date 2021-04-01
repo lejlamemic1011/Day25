@@ -1,15 +1,12 @@
-// src/App.js
-import React, { Component} from 'react';
 import GetRequestErrorHandling from './GetRequestErrorHandling';
+import './App.css';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <GetRequestErrorHandling />
-            </div>
-        )
-    }
+function App() {
+  return (
+    <div className="App">
+      <GetRequestErrorHandling />
+    </div>
+  );
 }
 
 export default App;
