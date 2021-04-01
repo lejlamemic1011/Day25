@@ -1,15 +1,12 @@
-// src/App.js
-import React, { Component} from 'react';
-import PostRequestErrorHandling from "./PostRequestErrorHandling"
+import PostRequestErrorHandling from './PostRequestErrorHandling';
+import './App.css';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <PostRequestErrorHandling />
-            </div>
-        )
-    }
+function App() {
+  return (
+    <div className="App">
+     <PostRequestErrorHandling />
+    </div>
+  );
 }
 
 export default App;
