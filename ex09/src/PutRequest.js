@@ -19,7 +19,6 @@ class PutRequest extends Component {
     
     render() {
         const { postId } = this.state;
-
         return (
             <div className="card text-center m-3">
                 <h5 className="card-header">Simple PUT Request</h5>
