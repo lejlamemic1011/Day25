@@ -1,15 +1,12 @@
-// src/App.js
-import React, { Component } from "react";
-import PostRequestAsyncAwait from "./PostRequestAsyncAwait";
+import PostRequestAsyncAwait from './PostRequestAsyncAwait';
+import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <PostRequestAsyncAwait />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <PostRequestAsyncAwait />
+    </div>
+  );
 }
 
 export default App;
