@@ -13,7 +13,6 @@ class DeleteRequest extends Component {
     
     render() {
         const { status } = this.state;
-
         return (
             <div className="card text-center m-3">
                 <h5 className="card-header">Simple DELETE Request</h5>
