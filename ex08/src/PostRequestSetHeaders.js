@@ -28,7 +28,7 @@ class PostRequestSetHeaders extends Component {
                 <h5 className="card-header">POST Request with Set Headers</h5>
                 <div className="card-body">Article Id: {articleId}</div>
             </div>
-        )
+        );
     } 
 }
 
