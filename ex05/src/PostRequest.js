@@ -25,7 +25,7 @@ class PostRequest extends Component {
                 <h5 className="card-header">Simple POST Request</h5>
                 <div className="card-body">Article Id: {articleId}</div>
             </div>
-        )
+        );
     }
 }
 
